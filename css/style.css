@@ -6168,14 +6168,6 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "fa-brands-400";
-  font-display: swap;
-  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "DMSerifDisplay-Regular";
   font-display: swap;
   src: url("../fonts/DMSerifDisplay-Regular.woff") format("woff"), url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2");
@@ -6184,10 +6176,10 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "OpenSans-Bold";
+  font-family: "fa-brands-400";
   font-display: swap;
-  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2");
-  font-weight: 700;
+  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -6208,9 +6200,9 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "OpenSans-ExtraBold";
+  font-family: "OpenSans-Bold";
   font-display: swap;
-  src: url("../fonts/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold.woff2") format("woff2");
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -6224,9 +6216,9 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "OpenSans-Italic";
+  font-family: "OpenSans-ExtraBold";
   font-display: swap;
-  src: url("../fonts/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic.woff2") format("woff2");
+  src: url("../fonts/OpenSans-ExtraBold.woff") format("woff"), url("../fonts/OpenSans-ExtraBold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -6235,6 +6227,14 @@ readers do not read off random characters that represent icons */
   font-family: "OpenSans-ExtraBoldItalic";
   font-display: swap;
   src: url("../fonts/OpenSans-ExtraBoldItalic.woff") format("woff"), url("../fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Italic";
+  font-display: swap;
+  src: url("../fonts/OpenSans-Italic.woff") format("woff"), url("../fonts/OpenSans-Italic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -6264,17 +6264,17 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "OpenSans-SemiBoldItalic";
+  font-family: "OpenSans-SemiBold";
   font-display: swap;
-  src: url("../fonts/OpenSans-SemiBoldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiBoldItalic.woff2") format("woff2");
+  src: url("../fonts/OpenSans-SemiBold.woff") format("woff"), url("../fonts/OpenSans-SemiBold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSans-SemiBold";
+  font-family: "OpenSans-SemiBoldItalic";
   font-display: swap;
-  src: url("../fonts/OpenSans-SemiBold.woff") format("woff"), url("../fonts/OpenSans-SemiBold.woff2") format("woff2");
+  src: url("../fonts/OpenSans-SemiBoldItalic.woff") format("woff"), url("../fonts/OpenSans-SemiBoldItalic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -6288,17 +6288,17 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "Roboto-Bold";
+  font-family: "Roboto-BlackItalic";
   font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  src: url("../fonts/Roboto-BlackItalic.woff") format("woff"), url("../fonts/Roboto-BlackItalic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-BlackItalic";
+  font-family: "Roboto-Bold";
   font-display: swap;
-  src: url("../fonts/Roboto-BlackItalic.woff") format("woff"), url("../fonts/Roboto-BlackItalic.woff2") format("woff2");
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -6336,9 +6336,9 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "Roboto-MediumItalic";
+  font-family: "Roboto-Medium";
   font-display: swap;
-  src: url("../fonts/Roboto-MediumItalic.woff") format("woff"), url("../fonts/Roboto-MediumItalic.woff2") format("woff2");
+  src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -6352,17 +6352,17 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "Roboto-Thin";
+  font-family: "Roboto-MediumItalic";
   font-display: swap;
-  src: url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.woff2") format("woff2");
+  src: url("../fonts/Roboto-MediumItalic.woff") format("woff"), url("../fonts/Roboto-MediumItalic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto-Medium";
+  font-family: "Roboto-Thin";
   font-display: swap;
-  src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.woff2") format("woff2");
+  src: url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -7184,11 +7184,20 @@ body.lock {
 }
 
 .header__contacts-link:before {
-  width: 25px;
+  width: 15px;
+  height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px;
   margin: 0px 10px;
   color: #fff;
-  height: 25px;
   border-radius: 50%;
   background-color: #662C91;
 }
@@ -7201,13 +7210,21 @@ body.lock {
 .header__items {
   padding: 10px;
   text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .header__items a {
   font-family: OpenSans-Regular, sans-serif;
   font-size: 14px;
   line-height: 30px;
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
   color: #555555;
   font-size: 14px;
@@ -7219,16 +7236,33 @@ body.lock {
 
 .section__title h2 {
   color: #000000;
-  font-family: OpenSans-Regular, sans-serif;
+  font-family: Roboto-Light, sans-serif;
   font-size: calc(38px + 10 * ((100vw - 320px) / 820));
   font-weight: 400;
   line-height: 64px;
   text-align: center;
   line-height: 1.2;
+  margin: 100px 0 25px 0;
+}
+
+.section__subtitle {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .section__title-about h2 {
   text-align: left;
+}
+
+.section__title-service p {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .hero {
@@ -7241,6 +7275,9 @@ body.lock {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -7249,11 +7286,12 @@ body.lock {
 .hero__element {
   width: 100%;
   max-width: 560px;
+  text-align: center;
   height: 100%;
 }
 
 .hero__title h1 {
-  font-family: DMSerifDisplay-Regular, sans-serif;
+  font-family: Roboto-Light, sans-serif;
   color: #000000;
   font-size: rem(60);
   font-size: calc(40px + 10 * ((100vw - 320px) / 820));
@@ -7271,6 +7309,7 @@ body.lock {
 .hero__button a {
   font-family: OpenSans-Regular, sans-serif;
   margin: 50px 0px 0px 0px;
+  margin: 50px auto;
   font-size: 14px;
   text-decoration: none;
   font-weight: 700;
@@ -7314,6 +7353,34 @@ body.lock {
   top: 0;
 }
 
+.hero__slider-youtube {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -69%);
+      -ms-transform: translate(-50%, -69%);
+          transform: translate(-50%, -69%);
+  z-index: 49;
+}
+
+.hero__slider-youtube i {
+  font-size: 79px;
+  color: #642e90;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  border-radius: 50%;
+  border: 2px solid #8bc63e;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.hero__slider-youtube i:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .hero__slider-block img {
   width: 530px;
   height: 604px;
@@ -7342,6 +7409,7 @@ body.lock {
 
 button.slick-arrow {
   position: absolute;
+  display: none;
   bottom: 50px;
   z-index: 10;
   font-size: 0;
@@ -7389,6 +7457,31 @@ button.slick-prev.slick-arrow:after {
   left: 50%;
 }
 
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+.offer {
+  margin: 0 15px;
+}
+
 .offer__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7429,6 +7522,7 @@ button.slick-prev.slick-arrow:after {
 }
 
 .offer__items-title h3 {
+  font-family: Roboto-Light, sans-serif;
   width: 100%;
   display: block;
   color: #000;
@@ -7534,6 +7628,209 @@ button.slick-prev.slick-arrow:after {
 
 .section__title-about {
   text-align: left;
+}
+
+.service {
+  margin: 0 15px;
+}
+
+.service__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service__description {
+  max-width: 40%;
+  display: block;
+  position: relative;
+  margin: auto auto;
+}
+
+.service__description img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid #fff;
+}
+
+.no-webp .service__description:before {
+  background: url("../img/vidio1.jpg") 0 0 no-repeat; }
+
+.service__description:before {
+  content: '';
+  width: 90px;
+  height: 90px;
+  display: block;
+  position: absolute;
+  left: -45px;
+  top: -45px;
+  z-index: -1;
+}
+
+.no-webp .service__description:after {
+  background: url("../img/vidio2.png") 0 0 no-repeat; }
+
+.service__description:after {
+  content: '';
+  width: 90px;
+  height: 90px;
+  display: block;
+  position: absolute;
+  left: -45px;
+  bottom: -45px;
+}
+
+.service__usl {
+  max-width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service__block {
+  width: 46%;
+  background-color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
+.service__block-icon i {
+  color: #8bc53d;
+  font-size: 26px;
+}
+
+.service__block-desk {
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.service__block-title h2 {
+  font-family: Roboto-Light, sans-serif;
+}
+
+/* Video Modal
+-----------------------------------------*/
+
+.video-modal,
+.video-modal .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3000;
+}
+
+.video-modal {
+  overflow: hidden;
+  position: fixed;
+  opacity: 0.0;
+  -webkit-transform: translate(500%, 0%);
+  -ms-transform: translate(500%, 0%);
+      transform: translate(500%, 0%);
+  -webkit-transition: -webkit-transform 0s linear 0s;
+  transition: -webkit-transform 0s linear 0s;
+  -o-transition: transform 0s linear 0s;
+  transition: transform 0s linear 0s;
+  transition: transform 0s linear 0s, -webkit-transform 0s linear 0s;
+  /* using flexbox for vertical centering */
+  /* Flexbox display */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* Vertical alignment */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.video-modal .overlay {
+  z-index: 0;
+  background: #652c90e0;
+  opacity: 0.0;
+  -webkit-transition: opacity 0.2s ease-out 0.05s;
+  -o-transition: opacity 0.2s ease-out 0.05s;
+  transition: opacity 0.2s ease-out 0.05s;
+}
+
+.video-modal-content {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  margin: 0 auto;
+  overflow-y: visible;
+  background: #000;
+  width: calc(100% - 12em);
+  height: 0;
+  padding-top: calc((100% - 12em) * 0.5625);
+  /* 16:9 calc */
+}
+
+/* Scaling to fit within the current Viewport size:
+   When viewport aspect ratio is greater than 16:9
+   work off the height instead of the width for calc */
+
+/* Mobile Layout Tweaks - side margins reduced */
+
+/* modal close button */
+
+.close-video-modal {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* set the iframe element to stretch to fit its parent element */
+
+iframe#youtube {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: #000;
+  -webkit-box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* show the modal: 
+   add class to the body to reveal */
+
+.show-video-modal .video-modal {
+  opacity: 1.0;
+  -ms-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%);
+}
+
+.show-video-modal .video-modal .overlay {
+  opacity: 1.0;
+}
+
+.show-video-modal .video-modal-content {
+  -ms-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%);
 }
 
 @media (max-width: 1293px) {
@@ -7669,9 +7966,26 @@ button.slick-prev.slick-arrow:after {
     background-color: transparent;
   }
 
-  .header__items a {
+  .header__items {
     display: block;
+  }
+
+  .header__items a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+
+  .section__title h2 {
+    margin: 25px 0 25px 0;
+  }
+
+  .section__title-about h2 {
     text-align: center;
   }
 
@@ -7683,10 +7997,6 @@ button.slick-prev.slick-arrow:after {
     text-align: center;
     margin: 0px 0px 0px 0px;
     line-height: 1.2;
-  }
-
-  .hero__button a {
-    margin: 25px auto;
   }
 
   .hero__slider {
@@ -7737,6 +8047,58 @@ button.slick-prev.slick-arrow:after {
         -ms-flex-order: 0;
             order: 0;
   }
+
+  .about__image-block:after {
+    bottom: auto;
+    top: -45px;
+  }
+
+  .service__description {
+    max-width: 100%;
+  }
+
+  .service__description:after {
+    right: -45px;
+    top: -45px;
+    left: auto;
+  }
+
+  .service__usl {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .video-modal-content {
+    width: calc(100% - 1em);
+    padding-top: calc((100% - 1em) * 0.5625);
+    /* 16:9 calc */
+  }
+}
+
+@media (max-width: 479.98px) {
+  .offer__item {
+    margin: 0;
+  }
+
+  .offer__items {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .service__block {
+    width: 300px;
+  }
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  .video-modal-content {
+    width: 0;
+    height: calc(100vh - 10em);
+    padding-top: 0;
+    padding-left: calc((100vh - 10em) * 1.7778);
+    /* 16:9 calc */
+  }
 }
 
 .webp .hero__slider:after { background: url(../img/heartbg.webp) 0 0/100% no-repeat; }
@@ -7744,3 +8106,7 @@ button.slick-prev.slick-arrow:after {
 .webp .about__image-block:before { background: url(../img/vidio1.webp) 0 0 no-repeat; }
 
 .webp .about__image-block:after { background: url(../img/vidio2.webp) 0 0 no-repeat; }
+
+.webp .service__description:before { background: url(../img/vidio1.webp) 0 0 no-repeat; }
+
+.webp .service__description:after { background: url(../img/vidio2.webp) 0 0 no-repeat; }
