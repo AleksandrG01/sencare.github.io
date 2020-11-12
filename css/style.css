@@ -7340,9 +7340,6 @@ body.lock {
   width: calc(100% - 30px);
 }
 
-.no-webp .hero__slider:after {
-  background: url("../img/heartbg.png") 0 0/100% no-repeat; }
-
 .hero__slider:after {
   content: '';
   width: 100%;
@@ -7351,6 +7348,7 @@ body.lock {
   position: absolute;
   left: 0;
   top: 0;
+  background: url("../img/heartbg.png") 0 0/100% no-repeat;
 }
 
 .hero__slider-youtube {
@@ -7599,9 +7597,6 @@ button.slick-prev.slick-arrow:after {
   border: 5px solid #fff;
 }
 
-.no-webp .about__image-block:before {
-  background: url("../img/vidio1.jpg") 0 0 no-repeat; }
-
 .about__image-block:before {
   content: '';
   width: 90px;
@@ -7611,10 +7606,8 @@ button.slick-prev.slick-arrow:after {
   right: -45px;
   top: -45px;
   z-index: -1;
+  background: url("../img/vidio1.jpg") 0 0 no-repeat;
 }
-
-.no-webp .about__image-block:after {
-  background: url("../img/vidio2.png") 0 0 no-repeat; }
 
 .about__image-block:after {
   content: '';
@@ -7624,6 +7617,7 @@ button.slick-prev.slick-arrow:after {
   position: absolute;
   left: -45px;
   bottom: -45px;
+  background: url("../img/vidio2.png") 0 0 no-repeat;
 }
 
 .section__title-about {
@@ -7656,9 +7650,6 @@ button.slick-prev.slick-arrow:after {
   border: 2px solid #fff;
 }
 
-.no-webp .service__description:before {
-  background: url("../img/vidio1.jpg") 0 0 no-repeat; }
-
 .service__description:before {
   content: '';
   width: 90px;
@@ -7668,10 +7659,8 @@ button.slick-prev.slick-arrow:after {
   left: -45px;
   top: -45px;
   z-index: -1;
+  background: url("../img/vidio1.jpg") 0 0 no-repeat;
 }
-
-.no-webp .service__description:after {
-  background: url("../img/vidio2.png") 0 0 no-repeat; }
 
 .service__description:after {
   content: '';
@@ -7681,6 +7670,7 @@ button.slick-prev.slick-arrow:after {
   position: absolute;
   left: -45px;
   bottom: -45px;
+  background: url("../img/vidio2.png") 0 0 no-repeat;
 }
 
 .service__usl {
@@ -7729,11 +7719,12 @@ button.slick-prev.slick-arrow:after {
   -webkit-box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.1);
   padding: 0 0 45px 0;
-  padding: 24px;
+  padding: 24px 50px;
   text-align: center;
   border-radius: 30px;
   margin: 42px;
   outline: 0;
+  background: url("../img/testimonial-bg.png") 0 0 no-repeat;
 }
 
 .responses__slider-desk {
@@ -7749,9 +7740,6 @@ button.slick-prev.slick-arrow:after {
   position: relative;
 }
 
-.no-webp .responses__slider-img:before {
-  background: url("../img/heartbg.png") 0 0/100% no-repeat; }
-
 .responses__slider-img:before {
   content: '';
   width: 150px;
@@ -7763,6 +7751,7 @@ button.slick-prev.slick-arrow:after {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 0;
+  background: url("../img/heartbg.png") 0 0/100% no-repeat;
   z-index: 3;
 }
 
@@ -7778,7 +7767,7 @@ button.slick-prev.slick-arrow:after {
 }
 
 .responses__slider-name {
-  font-family: Roboto-Light, sans-serif;
+  font-family: Roboto-Regular;
   color: #000000;
   font-size: 24px;
   font-weight: 400;
@@ -7814,6 +7803,121 @@ button.slick-prev.slick-arrow:after {
 
 .responses > div > div > button.slick-prev.slick-arrow:after {
   font-size: 39px;
+}
+
+.get {
+  margin: -125px 15px 100px 15px;
+}
+
+.get__container {
+  max-width: 1053px;
+  min-height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  background: url("../img/about1-Copy.jpg");
+  background-color: #FFFFFF;
+  background-position: 0px -96px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.get__container:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #ffffffcf;
+  border-radius: 30px;
+}
+
+.get__block {
+  margin: 25px 15px;
+}
+
+.get__title {
+  color: #000000;
+  font-family: Roboto-Light, sans-serif;
+  position: relative;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+.get__subtitle {
+  color: #555555;
+  font-family: OpenSans-Regular, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 48px;
+}
+
+.hero__button-get {
+  position: relative;
+}
+
+.hero__button-get a {
+  margin: 10px auto;
+}
+
+footer {
+  margin: 250px 0px 0px 0px;
+  background-color: transparent;
+  background: url("../img/footerbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+footer:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #ffffffcf;
+}
+
+.contacts {
+  position: relative;
+}
+
+.contacts__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contacts__item {
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.contacts__item-title {
+  margin: 11px 0px 47px 0px;
 }
 
 /* Video Modal
@@ -8188,6 +8292,10 @@ iframe#youtube {
   .service__block {
     width: 300px;
   }
+
+  .responses__slider-container {
+    padding: 15px;
+  }
 }
 
 @media (min-aspect-ratio: 16 / 9) {
@@ -8199,15 +8307,3 @@ iframe#youtube {
     /* 16:9 calc */
   }
 }
-
-.webp .hero__slider:after { background: url(../img/heartbg.webp) 0 0/100% no-repeat; }
-
-.webp .about__image-block:before { background: url(../img/vidio1.webp) 0 0 no-repeat; }
-
-.webp .about__image-block:after { background: url(../img/vidio2.webp) 0 0 no-repeat; }
-
-.webp .service__description:before { background: url(../img/vidio1.webp) 0 0 no-repeat; }
-
-.webp .service__description:after { background: url(../img/vidio2.webp) 0 0 no-repeat; }
-
-.webp .responses__slider-img:before { background: url(../img/heartbg.webp) 0 0/100% no-repeat; }
