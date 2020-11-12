@@ -202,11 +202,20 @@ $(document).ready(function () {
 $('.hero__slider-block').slick({
    infinite: true,
    autoplay: true,
-   autoplaySpeed: 3000,
+   autoplaySpeed: 6000,
    slidesToShow: 1,
    slidesToScroll: 1
 });
 
+
+$('.responses__slider').slick({
+   infinite: true,
+   autoplay: true,
+   autoplaySpeed: 6000,
+   adaptiveHeight: true,
+   slidesToShow: 1,
+   slidesToScroll: 1
+});
 
 $(".menu__link").click(function () {
    $('.menu__icon, .menu__body, .menu__body_plaseholder').removeClass('active');

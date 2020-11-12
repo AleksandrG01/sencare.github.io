@@ -7409,7 +7409,7 @@ body.lock {
 
 button.slick-arrow {
   position: absolute;
-  display: none;
+  display: none !important;
   bottom: 50px;
   z-index: 10;
   font-size: 0;
@@ -7713,8 +7713,107 @@ button.slick-prev.slick-arrow:after {
   line-height: 24px;
 }
 
-.service__block-title h2 {
+.service__block-title h3 {
   font-family: Roboto-Light, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.responses {
+  margin: 150px 0px 0px 0px;
+}
+
+.responses__slider-container {
+  -webkit-box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.1);
+  padding: 0 0 45px 0;
+  padding: 24px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 42px;
+  outline: 0;
+}
+
+.responses__slider-desk {
+  color: #555555;
+  font-family: DMSerifDisplay-Italic;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 36px;
+}
+
+.responses__slider-img {
+  position: relative;
+}
+
+.no-webp .responses__slider-img:before {
+  background: url("../img/heartbg.png") 0 0/100% no-repeat; }
+
+.responses__slider-img:before {
+  content: '';
+  width: 150px;
+  height: 183px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+  z-index: 3;
+}
+
+.responses__slider-img img {
+  max-width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+}
+
+.responses__slider-name {
+  font-family: Roboto-Light, sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.responses > div > div > button.slick-arrow {
+  display: block !important;
+  top: 50%;
+  bottom: auto;
+}
+
+.responses > div > div > button.slick-next.slick-arrow {
+  outline: 0;
+  right: 36px;
+  font-size: 0;
+  width: 0;
+  height: 0;
+}
+
+.responses > div > div > button.slick-next.slick-arrow:after {
+  font-size: 39px;
+  color: #8CC640;
+}
+
+.responses > div > div > button.slick-prev.slick-arrow {
+  outline: 0;
+  left: 36px;
+  font-size: 0;
+  width: 0;
+  height: 0;
+}
+
+.responses > div > div > button.slick-prev.slick-arrow:after {
+  font-size: 39px;
 }
 
 /* Video Modal
@@ -8110,3 +8209,5 @@ iframe#youtube {
 .webp .service__description:before { background: url(../img/vidio1.webp) 0 0 no-repeat; }
 
 .webp .service__description:after { background: url(../img/vidio2.webp) 0 0 no-repeat; }
+
+.webp .responses__slider-img:before { background: url(../img/heartbg.webp) 0 0/100% no-repeat; }
