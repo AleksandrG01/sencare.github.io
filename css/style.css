@@ -7355,10 +7355,9 @@ body.lock {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -69%);
-      -ms-transform: translate(-50%, -69%);
-          transform: translate(-50%, -69%);
   z-index: 49;
+  -webkit-animation: example-animation 1s linear infinite;
+          animation: example-animation 1s linear infinite;
 }
 
 .hero__slider-youtube i {
@@ -7474,6 +7473,86 @@ button.slick-prev.slick-arrow:after {
   font-weight: normal;
   color: #fff;
   opacity: 1;
+}
+
+@-webkit-keyframes example-animation {
+  0% {
+    -webkit-transform: translate(-50%, -71%);
+            transform: translate(-50%, -71%);
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+
+  25% {
+    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0.75;
+  }
+
+  50% {
+    -webkit-transform: translate(-50%, -69%);
+            transform: translate(-50%, -69%);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0.50;
+  }
+
+  75% {
+    -webkit-transform: translate(-50%, -68%);
+            transform: translate(-50%, -68%);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0.75;
+  }
+
+  100% {
+    -webkit-transform: translate(-50%, -67%);
+            transform: translate(-50%, -67%);
+    opacity: 1;
+  }
+}
+
+@keyframes example-animation {
+  0% {
+    -webkit-transform: translate(-50%, -71%);
+            transform: translate(-50%, -71%);
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+
+  25% {
+    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0.75;
+  }
+
+  50% {
+    -webkit-transform: translate(-50%, -69%);
+            transform: translate(-50%, -69%);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0.50;
+  }
+
+  75% {
+    -webkit-transform: translate(-50%, -68%);
+            transform: translate(-50%, -68%);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 0.75;
+  }
+
+  100% {
+    -webkit-transform: translate(-50%, -67%);
+            transform: translate(-50%, -67%);
+    opacity: 1;
+  }
 }
 
 .offer {
