@@ -41,7 +41,7 @@
                             <li><a href="#" class="menu__link">Массаж</a></li>
                     </ul>
                 </nav>
-                <a  data-da="menu__list,9,992" class="header__enter" href="#">ЗАПИСАТЬСЯ НА ПРИЕМ</a>
+                <a  data-da="menu__list,9,992" class="header__enter popup-link" href="#popup">Оставить заявку</a>
             </div>
         </div>
     </header>
@@ -60,7 +60,7 @@
                <p>Что может включать в себя помощь на дому для пожилых людей, которым уже трудно обслуживать себя, или инвалидов, чьи возможности могут быть ограничены? В первую очередь, это может быть медицинская помощь пожилым людям и инвалидам на дому.</p>
             </div>
             <div class="hero__button">
-               <a href="#">Оставить заявку</a>
+               <a href="#popup" class="popup-link">Оставить заявку</a>
             </div>
          </div>
          <div class="hero__element hero__element-slider">
@@ -180,7 +180,7 @@
                <p>Патронажная служба Москвы "Сиделка-мед" - гарантия квалифицированного ухода за больными и пожилыми людьми. Среди наших сотрудников нет случайных работников. Все сиделки с медицинским образованием, обладают необходимыми навыками и профессиональным опытом по уходу за пациентами, независимо от тяжести заболевания, общего состояния здоровья, возраста. Миссия "Сиделка-мед" - реальная помощь тем, кто в ней нуждается.</p>
             </div>
             <div class="hero__button">
-               <a href="#">Оставить заявку</a>
+               <a href="#popup" class="popup-link">Оставить заявку</a>
             </div>
          </div>
          <div class="about__image">
@@ -396,7 +396,7 @@
             <div class="get__title">Оформите заявку прямо сейчас!</div>
             <div class="get__subtitle"> Просто заполните данную форму и наши менеджеры обязательно свяжутся с Вами</div>
             <div class="hero__button hero__button-get">
-               <a href="#">Оставить заявку</a>
+               <a href="#popup" class="popup-link">Оставить заявку</a>
             </div>
          </div>
       </div>
@@ -409,34 +409,45 @@
                <div class="contacts__item-logo">
                   <img src="./img/logo.png" alt="">
                </div>
+               <div class="contacts__item-copyright">
+                  <p>Copyright 2020. All Rights reserved</p>
+               </div>
+               <div class="contacts__item-sotials">
+                  <a href="https://wa.me/79113630397"><i class="fab fa-whatsapp"></i></a>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-vk"></i></a>
+                  <a href="#"> <i class="fab fa-odnoklassniki"></i></a>
+                  <a href="#"> <i class="fab fa-telegram-plane"></i></a>
+               </div>
             </div>
             <div class="contacts__item">
                <div class="contacts__item-title">
-                  <h3>Useful Links</h3>
+                  <h3>Меню</h3>
                </div>
                <div class="contacts__item-links">
-                  <ul>
-                     <li>z</li>
-                     <li>z</li>
-                     <li>z</li>
-                     <li>z</li>
-                     <li>z</li>
-                  </ul>
+                  <ul class="footer__list">
+                     <li><a href="#" class="footer__link">О нас</a></li>
+                     <li><a href="#" class="footer__link">Услуги</a></li>
+                         <li><a href="#" class="footer__link">Цены</a></li>
+                         <li><a href="#" class="footer__link">Отзывы</a></li>
+                         <li><a href="#" class="footer__link">F.A.Q.</a></li>
+                         <li><a href="#" class="footer__link">Массаж</a></li>
+                 </ul>
                </div>
             </div>
             <div class="contacts__item">
                <div class="contacts__item-title">
-                  <h3>Contact Info</h3>
+                  <h3>Контакты</h3>
                </div>
                <div class="contacts__item-cont">
-                  <a class="contacts__item-link header__whatsapp fab fa-whatsapp" href="https://wa.me/79113630397">WhatsApp</a>
+                  <a class="contacts__item-link fab fa-whatsapp" href="https://wa.me/79113630397">WhatsApp</a>
                   <a class="contacts__item-link fas fa-envelope" href="mailto:info@sencare.com">info@sencare.com</a>
                   <a class="contacts__item-link fas fa-phone-volume" href="tel:79113630397">+7 911 363-03-97</a>
                </div>
             </div>
             <div class="contacts__item">
                <div class="contacts__item-title">
-                  <h3>Contact Info</h3>
+                  <h3>Instagram</h3>
                </div>
             </div>
          </div>
@@ -446,6 +457,30 @@
 
 </footer>
 
+
+
+<div id="popup" class="popup">
+   <div class="popup__body ">
+      <div class="popup__content">
+         <form class="popup__form" action="#">
+
+            <adiv class="popup__close close-popup">+</adiv>
+            <div class="popup__title">
+               Напишите нам
+            </div>
+            <div class="popup__text popup__name">
+               <input type="text" id="fname" name="name" placeholder="Ваше имя">
+            </div>
+            <div class="popup__text popup__email">
+               <input type="text" id="femail" name="phone" placeholder="Ваш телефон">
+            </div>
+            <div class="popup__text popup__submit">
+               <button type="submit" class="popup__button">Отправить сообщение</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
     </div>
     <script src="js/script.min.js"></script>
 
