@@ -217,6 +217,19 @@ $('.responses__slider').slick({
    slidesToScroll: 1
 });
 
+
+$('.price__slider').slick({
+   infinite: true,
+   //autoplay: true,
+   //autoplaySpeed: 6000,
+   //adaptiveHeight: true,
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   centerMode: true,
+   variableWidth: true
+});
+
+
 $(".menu__link").click(function () {
    $('.menu__icon, .menu__body, .menu__body_plaseholder').removeClass('active');
    $('body').removeClass('lock');
